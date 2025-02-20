@@ -2,5 +2,5 @@
 public class ResponseRegisterUserJson
 {
     public string Name { get; set; }
-    public string AcessToken { get; set; }
+    public string AcessToken { get; set; } = string.Empty;
 }
